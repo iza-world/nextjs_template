@@ -9,7 +9,9 @@ And if you find some old packages, inform that to Rintaro(IZA, CTO).
 
 References
 - Install Typescript
-https://nextjs.org/docs/basic-features/typescript
+  - https://nextjs.org/docs/basic-features/typescript
+- Install Tailwindcss
+  - https://tailwindcss.com/docs/guides/nextjs
 
 
 
