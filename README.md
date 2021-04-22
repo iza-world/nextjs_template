@@ -1,10 +1,16 @@
 # IZA Next.js Template
 
-This template adds Typescript, Tailwindcss, Eslint, Jest(ts-jest), Commitizen into Next.js.
+This template has already added Typescript, Tailwindcss, Eslint, Jest(ts-jest), Commitizen into Next.js.
 
 Before using this, run "npm update" in case some packages are old version.
 
 And if you find some old packages, inform that to Rintaro(IZA, CTO).
+
+
+References
+- Install Typescript
+https://nextjs.org/docs/basic-features/typescript
+
 
 
 
