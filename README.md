@@ -12,7 +12,9 @@ References
   - https://nextjs.org/docs/basic-features/typescript
 - Install Tailwindcss
   - https://tailwindcss.com/docs/guides/nextjs
-
+- Install Eslint
+  - https://eslint.org/docs/user-guide/getting-started
+  - Following Airbnb Style!
 
 
 

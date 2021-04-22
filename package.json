@@ -13,10 +13,58 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.22",
     "@types/react": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
     "autoprefixer": "^10.2.5",
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^26.6.3",
     "postcss": "^8.2.10",
     "tailwindcss": "^2.1.1",
+    "ts-jest": "^26.5.5",
     "typescript": "^4.2.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog",
+      "types": {
+        "feature ": {
+          "description": "A new feature / 機能の追加",
+          "title": "Features"
+        },
+        "update  ": {
+          "description": "Update a feature / 機能の変更",
+          "title": "Updates"
+        },
+        "bugfix  ": {
+          "description": "A bug fix / 不具合の修正",
+          "title": "Bug Fixes"
+        },
+        "test    ": {
+          "description": "Related to tests /　テストコードの編集",
+          "title": "Tests"
+        },
+        "refactor": {
+          "description": "Improvement without changing behaviors / ふるまいを変えない改善",
+          "title": "Code Refactoring"
+        },
+        "docs    ": {
+          "description": "Documentation and comments only changes / 文書・コメントの変更",
+          "title": "Documentation"
+        },
+        "config  ": {
+          "description": "Settings and configs changes / 設定の変更",
+          "title": "Configs"
+        }
+      }
+    }
   }
 }
