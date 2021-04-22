@@ -36,19 +36,19 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog",
       "types": {
-        "feature ": {
+        "feature": {
           "description": "A new feature / 機能の追加",
           "title": "Features"
         },
-        "update  ": {
+        "update": {
           "description": "Update a feature / 機能の変更",
           "title": "Updates"
         },
-        "bugfix  ": {
+        "bugfix": {
           "description": "A bug fix / 不具合の修正",
           "title": "Bug Fixes"
         },
-        "test    ": {
+        "test": {
           "description": "Related to tests /　テストコードの編集",
           "title": "Tests"
         },
@@ -56,11 +56,11 @@
           "description": "Improvement without changing behaviors / ふるまいを変えない改善",
           "title": "Code Refactoring"
         },
-        "docs    ": {
+        "docs": {
           "description": "Documentation and comments only changes / 文書・コメントの変更",
           "title": "Documentation"
         },
-        "config  ": {
+        "config": {
           "description": "Settings and configs changes / 設定の変更",
           "title": "Configs"
         }
