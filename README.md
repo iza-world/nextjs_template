@@ -15,6 +15,8 @@ References
 - Install Eslint
   - https://eslint.org/docs/user-guide/getting-started
   - Following Airbnb Style!
+- Install Jest(ts-jest)
+  - https://github.com/kulshekhar/ts-jest
 - Install Commitizen
   - Following internal Scrapbox Document
     - https://scrapbox.io/iza/Enforce_Commitizen_Settings
