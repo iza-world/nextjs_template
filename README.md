@@ -1,3 +1,13 @@
+# IZA Next.js Template
+
+This template adds Typescript, Tailwindcss, Eslint, Jest(ts-jest), Commitizen into Next.js.
+
+Before using this, run "npm update" in case some packages are old version.
+
+And if you find some old packages, inform that to Rintaro(IZA, CTO).
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
