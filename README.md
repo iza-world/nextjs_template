@@ -2,6 +2,8 @@
 
 This template has already added Typescript, Tailwindcss, Eslint, Jest(ts-jest), Commitizen into Next.js.
 
+BEFORE USING, PLEASE RUN `git config core.hooksPath .githooks` to enable Commitizen!!!
+
 Before using this, run "npm update" in case some packages are old version.
 
 And if you find some old packages, inform that to Rintaro(IZA, CTO).
