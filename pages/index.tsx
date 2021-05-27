@@ -1,8 +1,10 @@
 import Layout from './Layout';
+import Navbar from './Navbar';
 
 export default function Home() {
   return (
     <Layout>
+      <Navbar />
       <div className="flex flex-col">
         <div className="my-4 mx-auto font-bold text-green-900 tracking-widest text-xl text-center">
           こんにちわ！新海農園です！
