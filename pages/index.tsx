@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 export default function Home() {
   return (
     <Layout>
+      <img src="images/draws/topBar.png" alt="" className="object-cover object-bottom h-24 w-screen" />
       <Navbar />
       <div className="flex flex-col">
         <div className="my-4 mx-auto font-bold text-green-900 tracking-widest text-xl text-center">
