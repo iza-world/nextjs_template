@@ -18,9 +18,6 @@ export default function Home() {
           <br />
           一緒に「ふるさと」を作りませんか？
         </div>
-        <div>
-          農業体験メニュー
-        </div>
       </div>
     </Layout>
   );
