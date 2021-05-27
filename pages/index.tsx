@@ -1,5 +1,6 @@
 import Layout from './Layout';
 import Navbar from './Navbar';
+import Sections from './Sections';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           一緒に「ふるさと」を作りませんか？
         </div>
       </div>
+      <Sections />
       <img src="images/draws/bottomBar.png" alt="" className="object-cover object-bottom h-24 w-screen" />
     </Layout>
   );
