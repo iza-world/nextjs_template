@@ -20,6 +20,7 @@ export default function Home() {
           一緒に「ふるさと」を作りませんか？
         </div>
       </div>
+      <img src="images/draws/bottomBar.png" alt="" className="object-cover object-bottom h-24 w-screen" />
     </Layout>
   );
 }
