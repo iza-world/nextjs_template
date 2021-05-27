@@ -8,7 +8,7 @@ export default function Home() {
       <Navbar />
       <div className="flex flex-col">
         <div className="my-4 mx-auto font-bold text-green-900 tracking-widest text-xl text-center">
-          こんにちわ！新海農園です！
+          こんにちは！新海農園です！
         </div>
         <div className="my-4 mx-auto font-bold text-green-900 tracking-widest text-xl text-center leading-loose">
           2024年開園に向け準備を進めています
