@@ -9,6 +9,8 @@ export default function Menus() {
         詳しくは「お問い合わせ」フォームを使ってお問い合わせください。
         <br />
         開園準備中のため出来ない作業があります。（提携農園のご紹介もできます）
+        <img src="/images/draws/calendar.svg" alt="calendar" className="my-8 rounded-xl border-4 border-green-900" />
+
       </Subsection>
       <Subsection subsectionTitle="宅配メニュー">
         本年は桃限定・会員限定の宅配テストを予定しています。
