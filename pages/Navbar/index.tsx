@@ -2,14 +2,16 @@ import Item from './Item';
 
 export default function Navbar() {
   return (
-    <div className="flex mx-auto max-w-screen-xl justify-evenly">
-      <Item name="目指す農園" iconFile="goal.svg" />
-      <Item name="各種メニュー" iconFile="menus.svg" />
-      <Item name="アクセス" iconFile="access.svg" />
-      <Item name="お問い合わせ" iconFile="contact.svg" />
-      <Item name="会員専用" iconFile="kaiin.svg" />
-      <Item name="スタッフ専用" iconFile="staff.svg" />
-      <Item name="農園だより" iconFile="dayori.svg" />
-    </div>
+    <>
+      <div className="flex mx-auto max-w-screen-xl justify-evenly">
+        <Item id="goal" name="目指す農園" />
+        <Item id="menus" name="各種メニュー" />
+        <Item id="access" name="アクセス" />
+        <Item id="contact" name="お問い合わせ" />
+        <Item id="kaiin" name="会員専用" />
+        <Item id="staff" name="スタッフ専用" />
+        <Item id="dayori" name="農園だより" />
+      </div>
+    </>
   );
 }

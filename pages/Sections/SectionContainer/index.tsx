@@ -1,7 +1,7 @@
-export default function Section({ sectionTitle, children }) {
+export default function Section({ id, sectionTitle, children }) {
   return (
     <div className="max-w-screen-lg mx-8 my-16 lg:mx-auto">
-      <div className="flex items-center">
+      <div id={id} className="flex items-center">
         <img className="w-12" src="images/draws/pinkPeach.png" alt="pinkPeach" />
         <div className="ml-2 text-green-900 text-3xl font-bold">
           {sectionTitle}

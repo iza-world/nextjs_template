@@ -2,7 +2,7 @@ import Section, { Subsection } from './SectionContainer';
 
 export default function Menus() {
   return (
-    <Section sectionTitle="農業体験メニュー">
+    <Section id="menus" sectionTitle="農業体験メニュー">
       <Subsection subsectionTitle="農業体験メニュー">
         本年は会員限定の体験テストを予定しています。
         <br />
