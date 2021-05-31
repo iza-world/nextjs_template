@@ -1,7 +1,7 @@
 export default function Section({ id, sectionTitle, children }) {
   return (
-    <div className="max-w-screen-lg my-16">
-      <div id={id} className="flex items-center ml-8">
+    <div className="my-16">
+      <div id={id} className="flex items-center pl-4 max-w-screen-lg lg:mx-auto">
         <img className="w-12" src="images/draws/pinkPeach.png" alt="pinkPeach" />
         <div className="ml-2 text-green-900 text-3xl font-bold">
           {sectionTitle}
@@ -15,8 +15,8 @@ export default function Section({ id, sectionTitle, children }) {
 }
 
 export const Subsection = ({ subsectionTitle, children }) => (
-  <div className="mt-12">
-    <div className="ml-16 flex items-center">
+  <div className="py-12 pl-8 md:pl-16 pr-8 max-w-screen-lg lg:mx-auto">
+    <div className="flex items-center">
       <img className="w-8" src="images/draws/orangePeach.png" alt="pinkPeach" />
       <div className="ml-2 text-green-900 text-2xl font-bold">
         {subsectionTitle}
