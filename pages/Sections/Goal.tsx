@@ -3,12 +3,12 @@ import { DarkBackground } from '../Layout';
 
 export default function Goal() {
   const GoalStory = ({
-    id, text, rightPic = false,
+    id, children, rightPic = false,
   }) => {
     const Image = () => <img src={`/images/draws/${id}.png`} alt={id} className="max-w-xs" />;
     const Text = () => (
-      <div className="my-8 w-56 md:w-full mx-8 text-green-900 text-xl font-bold leading-loose">
-        {text}
+      <div className="my-8 w-56 md:w-full mx-8 text-green-900 text-xl font-bold leading-loose md:whitespace-nowrap">
+        {children}
       </div>
     );
 
@@ -36,30 +36,49 @@ export default function Goal() {
         <DarkBackground>
           <GoalStory
             id="story1"
-            text="農業生産法人として地域に溶け込み若い世代に 整備された畑を残していくことが目標です"
-          />
+          >
+            農業生産法人として地域に溶け込み
+            <br />
+            若い世代に整備された畑を残していくことが目標です
+          </GoalStory>
         </DarkBackground>
         <GoalStory
           id="story2"
-          text="34年のサラリーマン人生を経て農家に転身したのは 幼い頃に親しんだ自然を 未来に残していく必要があると感じたからです"
           rightPic
-        />
+        >
+          34年のサラリーマン人生を経て農家に転身したのは
+          <br />
+          幼い頃に親しんだ自然を
+          <br />
+          未来に残していく必要があると感じたからです
+        </GoalStory>
         <DarkBackground>
           <GoalStory
             id="story3"
-            text="「農村の活性化、国土を守る。」誰かがやるべきことに、挑戦していきたいです"
-          />
+          >
+            「農村の活性化、国土を守る。」
+            <br />
+            誰かがやるべきことに、挑戦していきたいです
+          </GoalStory>
         </DarkBackground>
         <GoalStory
           id="story4"
-          text="本当にまだまだ先は長いのですが、 夢を持って毎日楽しく働いています！"
           rightPic
-        />
+        >
+          本当にまだまだ先は長いのですが、
+          <br />
+          夢を持って毎日楽しく働いています！
+        </GoalStory>
         <DarkBackground>
           <GoalStory
             id="story5"
-            text="興味を持ってくださった方、 新海農園で一緒に農業をやりませんか？ ご連絡をお待ちしております！"
-          />
+          >
+            興味を持ってくださった方、
+            <br />
+            新海農園で一緒に農業をやりませんか？
+            <br />
+            ご連絡をお待ちしております！
+          </GoalStory>
         </DarkBackground>
       </div>
     </Section>
