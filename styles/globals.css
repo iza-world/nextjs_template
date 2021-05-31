@@ -12,3 +12,7 @@
 }
 
 @tailwind utilities;
+
+br {
+  @apply hidden md:block;
+}
