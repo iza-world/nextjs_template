@@ -1,6 +1,6 @@
 export default function Layout({ children }) {
   return (
-    <div style={{ backgroundColor: '#EEF5F6' }}>
+    <div className="text-green-900" style={{ backgroundColor: '#EEF5F6' }}>
       {children}
     </div>
   );
