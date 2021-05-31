@@ -37,7 +37,7 @@ export default function Navbar() {
       {
   openMenu
       && (
-      <div className="flex flex-col md:hidden gap-y-1">
+      <div className="flex flex-col md:hidden">
         {
           items.map(
             (item) => (

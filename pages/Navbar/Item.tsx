@@ -16,7 +16,7 @@ export default function Item({ id = '', name }) {
 export function MenuItem({ id = '', name }) {
   return (
     <Link href={`#${id}`}>
-      <div className="flex justify-center py-2 cursor-pointer" style={{ backgroundColor: '#D0E3E7' }}>
+      <div className="flex justify-center py-2 mb-1 cursor-pointer" style={{ backgroundColor: '#D0E3E7' }}>
         <div className="flex w-1/2">
           <img src={`/images/icons/${id}.svg`} alt="" className="w-8 h-8 mr-8" />
           <div className="font-sansRound text-xl whitespace-nowrap">
